@@ -42,10 +42,17 @@ This strategy uses quantitative metrics to screen small cap stocks across variou
 
 ## Usage
 ## 使用方法
+步骤1.运行StrategyIni.py 进行初始化
+执行步骤1后得到
+NASDAQ_Stock_List.csv  NASDAQ_Symbols.csv  small_dataframe_part_1~80.csv
 
-To apply this strategy, investors should focus on stocks that meet the specific financial criteria outlined, ensuring each stock is evaluated for its potential risk and return profile. The strategy is particularly suited for value investors seeking long-term capital appreciation.
+步骤2.运行FilterModule.py 过滤模块
+执行步骤2后得到
+financial_data_all.csv  financial_data_1~80.csv  filtered_stocks.json
+其中filtered_stocks.json是最终筛选的数据
 
-要应用这一策略，投资者应专注于符合上述特定财务标准的股票，确保评估每只股票的潜在风险和回报情况。这一策略特别适合寻求长期资本增值的价值投资者。
+注意:是否同时运行两个步骤取决于你的调整周期,假设周期为1day,那么StrategyIni.py只运行一次,
+如果周期为半年以上,那么在筛选时需要执行步骤1和步骤2
 
 ## Contributions
 ## 贡献
