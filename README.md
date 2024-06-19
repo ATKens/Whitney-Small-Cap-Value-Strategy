@@ -42,17 +42,30 @@ This strategy uses quantitative metrics to screen small cap stocks across variou
 
 ## Usage
 ## 使用方法
-**步骤1**运行StrategyIni.py 进行初始化
+**步骤1**:运行StrategyIni.py 进行初始化
 执行步骤1后得到
 NASDAQ_Stock_List.csv  NASDAQ_Symbols.csv  small_dataframe_part_1~80.csv
 
-**步骤2**运行FilterModule.py 过滤模块
+**步骤2**:运行FilterModule.py 过滤模块
 执行步骤2后得到
 financial_data_all.csv  financial_data_1~80.csv  filtered_stocks.json
 其中filtered_stocks.json是最终筛选的数据
 
 **注意**:是否同时运行两个步骤取决于你的调整周期,假设周期为1day,那么StrategyIni.py只运行一次,
 如果周期为半年以上,那么在筛选时需要执行步骤1和步骤2
+
+
+
+**Step 1:** Run StrategyIni.py for initialization
+After executing Step 1, you will obtain:
+NASDAQ_Stock_List.csv, NASDAQ_Symbols.csv, small_dataframe_part_1~80.csv
+
+**Step 2:** Run FilterModule.py filtering module
+After executing Step 2, you will obtain:
+financial_data_all.csv, financial_data_1~80.csv, filtered_stocks.json
+where filtered_stocks.json is the final filtered data.
+
+**Note:** Whether to run both steps simultaneously depends on your adjustment period. If the period is 1 day, then StrategyIni.py only needs to be run once. If the period is half a year or more, then both Step 1 and Step 2 need to be executed when filtering.
 
 ## Contributions
 ## 贡献
