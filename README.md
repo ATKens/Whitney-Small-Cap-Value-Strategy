@@ -84,9 +84,9 @@ This strategy is distributed under the MIT License. See `LICENSE` for more infor
 ## Contact
 ## 联系方式
 
-For more information, please contact [traderAJ](#) profile.
+For more information, please contact [[traderAJ](https://x.com/jieloken37323)](#) profile.
 
-如需更多信息，请联系 [traderAJ](#) 个人资料。
+如需更多信息，请联系 [[traderAJ](https://x.com/jieloken37323)](#) 个人资料。
 
 Happy Investing!
 祝投资愉快！
